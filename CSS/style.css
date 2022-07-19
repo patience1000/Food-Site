@@ -1,0 +1,58 @@
+html {
+    background-image: url(../Images/food3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+body{
+    margin: 0;
+}
+.home{
+    background-color:rgba(0, 0, 0, 0.85);
+    padding-bottom:120px ;
+}
+.Nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(12, 11, 11);
+    align-items: center;   
+}
+.Nav-bar a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1{
+    color: magenta;
+}
+
+.intro{
+    text-align: center;
+    color: #ffffff;
+}
+.gallery-btn{
+    border: 0;
+    padding: 15px;
+    margin-top: 2%;
+    border-radius: 2%;
+    background-color: magenta;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.PK{
+    padding-top: 5%;
+    font-size: 4rem;
+    
+}
+
+.motto{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width:768px){
+    .Nav-bar {
+      flex-direction: column;
+    }
+   
+}
