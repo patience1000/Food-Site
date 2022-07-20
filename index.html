@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
    <link rel="stylesheet" href="CSS/style.css">
+
+   <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Food-Site</title>
 </head>
 <body>
     <div class="home">
-        <div class="Nav-bar">   
-            <a><h3>Home</h3></a>
-            <a><h3>About</h3></a>
-            <a><h3>Gallary</h3></a>
-            <a><h3>Bookings</h3></a>
-            <h1>PEARLS KITCHEN</h1>
-            <a><h3>Blog</h3></a>
-            <a><h3>Review</h3></a>
-            <a><h3>Contact Us</h3></a>
-            <a><h3>Components</h3></a>
+        <div class="Nav-bar" id="myTopnav">   
+            <a class="active">Home</a>
+            <a>About</a>
+            <a>Gallary</a>
+            <a>Bookings</a>
+            <a id="hd1">PEARL KITCHEN</a>
+            <a>Blog</a>
+            <a>Review</a>
+            <a>Contact Us</a>
+            <a>Components</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
         </div>
         <div class="intro">
             <p class="PK">PEARLS KITCHEN</p>
@@ -24,6 +29,34 @@
             <button class="gallery-btn">View Our Gallery</button>
         </div>
     </div>
+
+    <!-- About -->
+    <div class="about-us">
+        <div class="about-img">
+            <img src="Images\food4.jpg" alt="">
+        </div> 
+        <div class="about-us-text">
+            <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam accusantium nostrum modi, nemo, officia veritatis ipsum facere maxime assumenda voluptatum enim! Labore maiores placeat impedit, vero sed est voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita alias dicta autem, maiores doloremque quo perferendis, ut obcaecati harum, <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum necessitatibus iste,
+                    nulla recusandae porro minus nemo eaque cum repudiandae quidem voluptate magnam voluptatum? <br>Nobis, saepe sapiente omnis qui eligendi pariatur. quis voluptas. Assumenda facere adipisci quaerat. Illum doloremque quae omnis vitae.</p>
+                    <p><b>Lonsectetur adipisicing elit. Blanditiis aspernatur, ratione dolore vero asperiores explicabo.</b></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta</p>
+
+        </div> 
+    </div>  
+   <!-- Javascript --> -->
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "Nav-bar") {
+        x.className += " responsive";
+      } else {
+        x.className = "Nav-bar";
+      }
+    }
+    </script>
     
 </body>
 </html>
