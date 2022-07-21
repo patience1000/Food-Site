@@ -14,8 +14,8 @@ body{
  }
 
 .Nav-bar{
-  /* display: flex; */
-  /* flex-wrap: wrap; */
+  display: flex;
+  flex-wrap:nowrap;
   /* justify-content: space-evenly; */
   background-color: rgb(12, 11, 11);
   align-items: center; 
@@ -34,13 +34,15 @@ body{
 
 
 .Nav-bar a{
+  display: flex;
+  flex-wrap: nowrap;
   padding: 22px 33px;
   font-size: 1.2rem;
   cursor: pointer;
   text-decoration: none;
   color: #ffffff; 
   float: left;
-  display: block;
+  /* display: block; */
   text-align: center;
 }
 
