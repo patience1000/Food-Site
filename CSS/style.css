@@ -48,6 +48,7 @@ body{
 
 .Nav-bar a.active {
   color: rgb(255, 7, 152);
+  color: white;
 }
 
 .Nav-bar .icon {
@@ -103,39 +104,46 @@ body{
     color: #ffffff;
     text-align: left;
   }
-  
+
   .menu{
     font-size: 3rem;
     color: #ffffff;
     padding: 50px;
   }
+  
+  .gallary-image{
+    display:flex;
+    flex-direction: column-reverse ;
+    /* justify-content: space-around; */
+  }
 
-  .gallery-image {
-    background-color: #777;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
   div.gallery img {
     width: 100%;
     height: auto;
+    /* height: 10cm; */
+    /* width: 10cm; */
   }
+  
+  div.gallery {
+    /* height: 60px; */
+  margin: 5px;
+  border: 1px solid #ccc;
+  /* float: left; */
+    width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* 
+div.gallery:hover {
+  border: 1px solid #777;
+}
   
   div.desc {
     padding: 15px;
     text-align: center;
-  }
+  } */ */
   
 /* Media screen */
 
@@ -161,7 +169,7 @@ body{
     display:flex;
     flex-wrap: wrap;
     text-align: left;
-    padding: 10px 12px;
+    /* padding: 10px 12px; */
   }
 }
 
