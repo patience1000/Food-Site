@@ -136,6 +136,79 @@ body{
     /* margin-top: 8px; */
     vertical-align: middle;
   }
+
+  /* Bookings */
+  
+  .Booking{
+      background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Images/resturant-table.jfif);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+      /* height: 100vh; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .Bookings{
+      display: inline-block;
+      margin: 5% 0;
+      height: 55%;
+      width: 50%;
+      padding: 50px 35px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgb(0,0,0,0.1);
+      backdrop-filter: blur(5px);
+  }
+  .form-control{
+      height: 1cm;
+      width: 70%;
+      outline: none;
+      padding: 2px 15px;
+      margin: 2% 12%;
+      border-radius: 15px;
+      border: 0;
+  }
+  .form-group{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+  h1{
+      font-size: 2rem;
+      margin: 0%;
+      padding-bottom: 7px;
+      font-weight: 500;
+      color: #000;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #date{
+      font-size: 1rem;
+  }
+  .book-btn{
+      padding: 10px 10px;
+      font-size:2ch;
+      border: 0;
+      outline: none;
+      border-radius: 2px;
+      background-color: rgb(238, 57, 163);
+  }
+  .book-btn:hover{
+      background-color: rgb(177, 14, 109);
+  }
+  .submit-btn{
+      background-color: rgb(238, 57, 163);
+      border: 0;
+      font-weight: 600;
+  }
+  .submit-btn:hover{
+      background-color: rgb(177, 14, 109);
+  }
    
 /* Media screen */
 
