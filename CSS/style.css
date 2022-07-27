@@ -291,8 +291,10 @@ body{
   text-align: center;   
 }
 .food-section h3{
-  padding: 20px;
+  padding: 15px;
+  font-weight:500;
 }
+
 .food-section button{
   padding: 10px 20px;
   margin: 15px;
@@ -305,4 +307,5 @@ body{
 .food-section img{
   width: 100%;
   height: 100%;
+  border-radius: 5px 5px 0 0;
 } 
