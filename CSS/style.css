@@ -332,7 +332,15 @@ body{
    /*Reviews */
    .Review-section{
       background-color: rgb(15, 15, 15);
-      height: 100vh;
+      /* height: 100vh; */
+      text-align: center;
+   }
+   .Review-section h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    padding: 50px;
+    color: #fff;
    }
    .Review{
     display: flex;
