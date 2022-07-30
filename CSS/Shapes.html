@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    #circle{
+        width: 100px;
+        height: 100px;
+        background: blueviolet;
+        margin-top: 20px;
+        margin: auto;
+        border-radius: 50%;
+    }
+    #triangle{
+        width: 0;
+        height: 0;
+        margin: auto;
+        top: -50px;
+        position: relative;
+        border: 50px solid transparent;
+        border-bottom-color: #e0009d;
+    }
+    #oval{
+        width: 80px;
+        height:50px;
+        background: silver;
+        border-radius: 50%;
+        margin: auto;
+    
+     }
+     #diamond-square{
+        width: 0;
+        height: 0;
+        margin: auto;
+        border: 50px solid transparent;
+        border-bottom-color: #00e0d7;
+        position: relative;
+        top: -50px;
+     }
+    #diamond-square::after{
+        content: "";
+        position: absolute;
+        left: -50px;
+        top: 50px;
+        width: 0;
+        height: 0;
+        border: 50px solid transparent;
+        border-top-color: #00e0d7;
+        margin: auto;
+    }
+    #pentagon{
+        position: relative;
+        width: 54px;
+        box-sizing: content-box;
+        border-width: 50px 18px;
+        border-style: solid;
+        border-color: blue transparent;
+        margin: auto;
+        margin-top: 30px;
+    }  
+    #pentagon::after{
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: -85px;
+        left: -18px;
+        border-width: 0 45px 35px;
+        border-style: solid;
+        border-color: transparent transparent blue;
+     } 
+        
+</style>
+<body>
+    <div id="circle">
+    </div>
+
+    <div id="triangle">
+
+    </div>
+
+    <div id="oval">
+
+    </div>
+    <div id="diamond-square">
+        
+    </div>
+    <div id="#pentagon">
+        
+    </div>
+</body>
+</html>

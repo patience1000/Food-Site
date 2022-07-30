@@ -331,7 +331,7 @@ body{
 }
    /*Reviews */
    .Review-section{
-      background-color: rgb(15, 15, 15);
+      background-color: rgb(66, 64, 64);
       /* height: 100vh; */
       text-align: center;
    }
@@ -349,12 +349,23 @@ body{
    .Box{
     height: 25%;
     width: 25%;
-    background: #fff;
-    color: #000;
+    color: #fff;
+    background:rgb(15, 15, 15);
     text-align:center;
-    border-radius: 5%;
-    box-shadow: 5px 5px 5px 5px rgb(173, 173, 201);
+    box-shadow: 2px 2px 2px 2px rgb(175, 17, 109);
+    border-radius: 20% 0 20% 0%;
    }
+   .title{
+    padding: 20px;
+    color: #fff;
+   }
+   .title h1{
+    color: #fff;
+   }
+   .Box p{
+    padding: 10px 30px;
+   }
+
 /* Media screen */
 
 @media screen and (max-width: 800px) {
