@@ -352,7 +352,7 @@ body{
     height: 275px;
     width: 300px;
     color: #fff;
-    margin-top: 30px;
+    margin: 30px 0 40px 0;
     background:rgb(15, 15, 15);
     text-align:center;
     box-shadow: 2px 2px 2px 2px rgb(175, 17, 109);
@@ -372,6 +372,11 @@ body{
    .Box p{
     padding: 15px 30px;
    }
+
+  .contact{
+    height: 50vh;
+    color: #fff;
+  }
 
 /* Media screen */
 
