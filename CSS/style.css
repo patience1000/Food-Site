@@ -331,7 +331,7 @@ body{
 }
    /*Reviews */
    .Review-section{
-      background-color: rgb(66, 64, 64);
+      background-color: rgb(8, 8, 8);
       /* height: 100vh; */
       text-align: center;
    }
@@ -339,17 +339,21 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 4em;
-    padding: 50px;
+    padding: 80px;
     color: #fff;
    }
    .Review{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-direction: 5px 5px 5px 5px rgb(0, 0, 46);
    }
    .Box{
-    height: 30%;
-    width: 25%;
+    height: 275px;
+    width: 300px;
     color: #fff;
+    margin-top: 30px;
     background:rgb(15, 15, 15);
     text-align:center;
     box-shadow: 2px 2px 2px 2px rgb(175, 17, 109);
@@ -362,8 +366,12 @@ body{
    .title h1{
     color: #fff;
    }
+   .Box h5{
+    padding: 15px 30px;
+    font: 0.9em sans-serif;
+   }
    .Box p{
-    padding: 10px 30px;
+    padding: 15px 30px;
    }
 
 /* Media screen */
@@ -417,8 +425,15 @@ body{
 }
 /*Blog-section*/
 
- /* @media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
 .food {
   flex-direction: column;
 } 
- } */
+ }
+ /* Review-section */
+ @media screen and (max-width: 600px){
+  .Review{
+    /* flex-wrap: wrap; */
+  }
+  
+ }
