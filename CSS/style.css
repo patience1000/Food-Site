@@ -214,7 +214,6 @@ body{
 
 .Blog{
   background-color: black;
-  /* height: 110vh; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -373,7 +372,7 @@ body{
     padding: 15px 30px;
    }
 
-  .contact{
+  #contact{
     height: 50vh;
     color: #fff;
   }
