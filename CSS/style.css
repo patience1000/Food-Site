@@ -90,7 +90,7 @@ body{
 
 .about-us{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     background-color: rgb(9, 0, 9);
     color: #ffffff;
   }
@@ -103,7 +103,7 @@ body{
   }
   .about-us-text{
     box-sizing:border-box;
-    padding: 50px 100px 0;
+    padding: 4% 8% 0;
     font-size: 1.15rem;
   }
   .about-us-text h1{
@@ -408,9 +408,16 @@ body{
 @media screen and (max-width: 800px) {
   .about-us{
     font-size: 1rem;
-  
+    flex-direction: column;
 }
 }
+
+@media screen and (max-width: 800px) {
+  .about-us div{
+    width: 100%;
+}
+}
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
