@@ -265,6 +265,7 @@ body{
 .food{
   background-color:black;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .food-section{
@@ -299,6 +300,7 @@ body{
 .juice{
   background-color:black;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .juice-section{
@@ -442,13 +444,7 @@ body{
     max-width: 100%;
   }
 }
-/*Blog-section*/
-
- @media screen and (max-width: 600px) {
-.food {
-  flex-direction: column;
-} 
- }
+ 
  /* Review-section */
  @media screen and (max-width: 600px){
   .Review{
