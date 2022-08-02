@@ -351,26 +351,34 @@ body{
    .Box{
     height: 275px;
     width: 300px;
-    color: #fff;
+    color: #000;
     margin: 30px 0 40px 0;
-    background:rgb(15, 15, 15);
+    background:white;
     text-align:center;
     box-shadow: 2px 2px 2px 2px rgb(175, 17, 109);
     border-radius: 20% 0 20% 0%;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+   }
+   .Box:hover{
+    transform: scale(1.08, 1.08);
    }
    .title{
     padding: 20px;
-    color: #fff;
+    color: #000;
    }
    .title h1{
-    color: #fff;
+    color: #000;
+    font-weight: 550;
    }
    .Box h5{
     padding: 15px 30px;
     font: 0.9em sans-serif;
+    font-weight: 550;
    }
    .Box p{
     padding: 15px 30px;
+    font-weight: 540;
    }
 
   #contact{
