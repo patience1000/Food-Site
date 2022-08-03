@@ -6,7 +6,7 @@
 html {
     background-image: url(../Images/food3.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:auto;
 }
 body{
     margin: 0;
@@ -74,10 +74,12 @@ body{
     color: #ffffff;
     font-size: 1.3rem;
 }
+.gallery-btn:hover{
+  background-color: rgb(107, 6, 57);
+}
 .PK{
     padding-top: 10%;
-    font-size: 4rem;
-    
+    font-size: 4rem;  
 }
 
 .motto{
@@ -291,6 +293,9 @@ body{
   font-size: 2rem;
   border-radius: 15px;
   background-color:rgb(175, 17, 109);
+}
+.food-section button:hover{
+  background-color:rgb(116, 17, 74);
 }
 .food-section img{
   width: 100%;
