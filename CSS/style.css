@@ -412,6 +412,25 @@ body{
   .contact-title h3{
     padding: 15px 0;
   }
+  .rule{
+    border-bottom: 1px solid white;
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px  30px 10px ; 
+  }
+  
+  .footer-about{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px; 
+    line-height: 1.7; 
+  }
 /* Media screen */
 
 @media screen and (max-width: 800px) {
