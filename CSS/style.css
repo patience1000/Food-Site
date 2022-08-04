@@ -390,10 +390,28 @@ body{
    }
 
   #contact{
-    height: 50vh;
+    background-color: rgb(124, 2, 73);
     color: #fff;
   }
-
+  .contact h1{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .contact-title{
+    margin-left: 800px;
+  }
+  .head{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 20px 0;
+  }
+  .description{
+    padding: 5px 0;
+  }
+  .contact-title h3{
+    padding: 15px 0;
+  }
 /* Media screen */
 
 @media screen and (max-width: 800px) {
