@@ -339,7 +339,7 @@ body{
 }
    /*Reviews */
    .Review-section{
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(17, 17, 17);
     text-align: center;
    }
    .Review-section h4{
@@ -390,7 +390,7 @@ body{
    }
 
   #contact{
-    background-color: rgb(124, 2, 73);
+    background-color: rgb(228, 28, 145);
     color: #fff;
   }
   .contact h1{
@@ -421,16 +421,7 @@ body{
     justify-content: space-between;
     padding: 10px  30px 10px ; 
   }
-  
-  .footer-about{
-    display: flex;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 60px; 
-    line-height: 1.7; 
-  }
+
 /* Media screen */
 
 @media screen and (max-width: 800px) {
