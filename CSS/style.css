@@ -20,7 +20,7 @@ body{
 
 .Nav-bar{
   display: flex;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   background-color: rgb(12, 11, 11);
   align-items: center; 
   z-index: 100;  
@@ -42,7 +42,7 @@ body{
   cursor: pointer;
   text-decoration: none;
   color: #ffffff; 
-  float: left;
+  /* float: left; */
   text-align: center;
 }
 
@@ -84,15 +84,14 @@ body{
 
 .motto{
   padding: 3%;
-  font-size: 2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4rem;
+  font-family: Sacramento;
 }
 
 /* about section */
 
 .about-us{
     display: flex;
-    /* flex-wrap: wrap; */
     background-color: rgb(9, 0, 9);
     color: #ffffff;
   }
