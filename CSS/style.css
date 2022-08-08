@@ -478,10 +478,3 @@ body{
   }
 }
  
- /* Review-section */
- @media screen and (max-width: 600px){
-  .Review{
-    /* flex-wrap: wrap; */
-  }
-  
- }
