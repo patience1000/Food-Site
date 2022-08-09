@@ -33,7 +33,9 @@ body{
   color: rgb(238, 57, 163);
   font-size:2rem; 
   padding: 14px 33px;  
-
+}
+#hd1:hover{
+  background-color:rgb(12, 11, 11);
 }
 
 .Nav-bar a{
