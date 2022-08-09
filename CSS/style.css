@@ -20,7 +20,6 @@ body{
 
 .Nav-bar{
   display: flex;
-  /* flex-wrap: nowrap; */
   background-color: rgb(12, 11, 11);
   align-items: center; 
   z-index: 100;  
@@ -424,6 +423,12 @@ body{
   }
 
 /* Media screen */
+/* @media screen and (max-width: 800px) {
+  .Nav-bar {
+    flex-direction: column;
+  }
+} */
+
 
 @media screen and (max-width: 800px) {
   .Nav-bar a:not(:first-child) {display: none;}
@@ -435,12 +440,15 @@ body{
 }
 
 @media screen and (max-width: 800px) {
-  .Nav-bar.responsive {position: relative;}
+  .Nav-bar.responsive {position: relative;
+  flex-direction: column;}
   .Nav-bar.responsive .icon {
   position:absolute;
   right: 0;
   top: 0;
   }
+
+  .Nav-bar.responsive #hd1 {display: none;}
 
   .Nav-bar.responsive a {
     float:none;
