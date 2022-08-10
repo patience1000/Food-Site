@@ -389,7 +389,7 @@ body{
    }
 
   #contact{
-    background-color: rgb(228, 28, 145);
+    background-color: rgb(49, 10, 33);
     color: #fff;
   }
   .contact h1{
@@ -422,12 +422,31 @@ body{
   }
 
 /* Media screen */
-/* @media screen and (max-width: 800px) {
-  .Nav-bar {
-    flex-direction: column;
+@media screen and (max-width: 1024px) {
+  .Nav-bar a{
+    padding: 20px 20px;
+    font-size: 1.1rem;
   }
-} */
+   #book{
+    padding-right: 139.9px;
+  }
+  #blog{
+    padding-left: 139.8px;
+  }
+  #hd1{
+    display: none;
+  }
+  .about-us-text{
+    box-sizing:border-box;
+    padding: 5% 6% 0;
+    font-size: 1rem;
+  }
+  .about-us-text h1{
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+  }
 
+}
 
 @media screen and (max-width: 800px) {
   .Nav-bar a:not(:first-child) {display: none;}
@@ -456,9 +475,9 @@ body{
   .Nav-bar.responsive a {
     float:none;
     display:flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     text-align: left;
-    padding: 10px 33px;
+    padding: 10px 13px;
     font-size: 1.1rem;
   }
 }
@@ -475,7 +494,6 @@ body{
     width: 100%;
 }
 }
-
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
