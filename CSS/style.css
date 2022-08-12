@@ -411,13 +411,13 @@ body{
   .head{
     font-size: 2rem;
     font-weight: 500;
-    padding: 20px 0;
+    padding: 18px 0;
   }
   .description{
-    padding: 5px 0;
+    padding: 4px 0;
   }
   .contact-title h3{
-    padding: 15px 0;
+    padding: 14px 0;
   }
   .rule{
     border-bottom: 1px solid white;
@@ -447,6 +447,9 @@ body{
   .about-us{
     flex-direction: column;
   }
+  .about-img{
+    display: none;
+  }
   .about-us div{
     width: 100%;
   }
@@ -458,8 +461,9 @@ body{
   .Bookings{
     width: 60%;
   }
-}
 
+}
+@media screen and (max-width: 1024px) {}
 /* @media screen and (max-width: 400px){
   .about-us{
     display: flex;
