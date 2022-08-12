@@ -431,15 +431,18 @@ body{
 
 /* Media screen */
 @media screen and (max-width: 1024px) {
+ .Nav-bar{
+    width: 100%;
+ } 
   .Nav-bar a{
-    padding: 20px 22px;
+    padding: 2.9% 2.5%;
     font-size: 1.1rem;
   }
    #book{
-    padding-right: 139.9px;
+    padding-right: 135px;
   }
   #blog{
-    padding-left: 139.8px;
+    padding-left: 135px;
   }
   #hd1{
     display: none;
