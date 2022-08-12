@@ -43,12 +43,13 @@ body{
 }
 
 .Nav-bar a{
-  padding: 22px 33px;
+  padding: 22px 34.7px;
   font-size: 1.2rem;
   cursor: pointer;
   text-decoration: none;
   color: #ffffff; 
   text-align: center;
+  overflow: hidden;
 }
 
 .Nav-bar a:hover {
@@ -102,6 +103,7 @@ body{
   }
   .about-us div {
     width: 50%;
+  
   }
   .about-img img{
     width: 100%;
@@ -111,6 +113,7 @@ body{
     box-sizing:border-box;
     padding: 4% 8% 0;
     font-size: 1.15rem;
+   
   }
   .about-us-text h1{
     color: #ffffff;
@@ -429,7 +432,7 @@ body{
 /* Media screen */
 @media screen and (max-width: 1024px) {
   .Nav-bar a{
-    padding: 20px 20px;
+    padding: 20px 22px;
     font-size: 1.1rem;
   }
    #book{
@@ -441,10 +444,11 @@ body{
   #hd1{
     display: none;
   }
-  .about-us-text{
-    box-sizing:border-box;
-    padding: 5% 6% 0;
-    font-size: 1rem;
+  .about-us{
+    flex-direction: column;
+  }
+  .about-us div{
+    width: 100%;
   }
   .about-us-text h1{
     padding-bottom: 20px;
@@ -456,19 +460,25 @@ body{
   }
 }
 
-@media screen and (max-width: 375px){
- 
-  body{
-    margin: 0;
-    scroll-behavior: smooth;
+/* @media screen and (max-width: 400px){
+  .about-us{
+    display: flex;
+    background-color: rgb(9, 0, 9);
+    color: #992323;
   }
-  .home{
+  .about-us div {
+    width: 50%;
+  }
+  .about-img img{
     width: 100%;
-    background-color:rgba(0, 0, 0, 0.85);
-    padding-bottom:120px;
-    padding-top: 1px; 
+    height: 700px;
   }
-}
+  .about-us-text{
+    box-sizing:border-box;
+    padding: 4% 8% 0;
+    font-size: 1.15rem;
+  }
+} */
 
 @media screen and (max-width: 800px) {
   .Nav-bar a:not(:first-child) {display: none;}
