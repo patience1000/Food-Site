@@ -410,7 +410,34 @@ body{
   .contact-title{
     display: flex;
     justify-content:space-between;
-    
+  }
+  .delivery{
+    position: relative;
+  }
+
+  .contact-photo{
+    position: relative;
+    z-index: 1;
+  }
+  .note{
+    position:absolute;
+    bottom: 150px;
+    left: 50px;
+    z-index: 2;
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .note p{
+    font-size: 1.1rem;
+  }
+  .note button{
+    color: #fff;
+    padding: 12px;
+    font-size: 1.3rem;
+    border: none;
+    background-color:rgb(175, 17, 109);
+    border-radius: 6px;
   }
   .contact-photo img{
     max-width: 70%;
