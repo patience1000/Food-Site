@@ -239,6 +239,9 @@ body{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.switch-btn{
+  /* margin: 2%;   */
+}
 .juice-btn{ 
   padding: 6px 40px;
   margin-left: 10px;
@@ -345,6 +348,7 @@ body{
    .Review-section{
     background-color: rgb(17, 17, 17);
     text-align: center;
+    
    }
    .Review-section h4{
     font-family:Arial, Helvetica, sans-serif;
@@ -357,6 +361,7 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-evenly;
     flex-direction: 5px 5px 5px 5px rgb(0, 0, 46);
    }
@@ -403,7 +408,8 @@ body{
     color: #fff;
   }
   .contact-title{
-    margin-left: 800px;
+    display: flex;
+    /* flex-direction: column; */
   }
   .head{
     font-size: 2rem;
@@ -429,7 +435,8 @@ body{
 /* Media screen */
 @media screen and (max-width: 1024px) {
  .Nav-bar{
-    width: 100%;
+    width: 970px;
+    overflow-y: hidden;
  } 
   .Nav-bar a{
     padding: 2.9% 2.5%;
@@ -438,8 +445,8 @@ body{
    #book{
     padding-right: 135px;
   }
-  #blog{
-    /* padding-left: 135px; */
+  #blg{
+    padding-left: 135px;
   }
   #hd1{
     display: none;
@@ -457,32 +464,28 @@ body{
     padding-bottom: 20px;
     font-size: 2.5rem;
   }
-
   .Bookings{
     width: 60%;
   }
-
-}
-@media screen and (max-width: 1024px) {}
-/* @media screen and (max-width: 400px){
-  .about-us{
-    display: flex;
-    background-color: rgb(9, 0, 9);
-    color: #992323;
-  }
-  .about-us div {
-    width: 50%;
-  }
-  .about-img img{
+  
+  .Review{
+    flex-direction: column;
     width: 100%;
-    height: 700px;
+   }
+  .Box{
+    height: 275px;
+    width: 60%;
   }
-  .about-us-text{
-    box-sizing:border-box;
-    padding: 4% 8% 0;
-    font-size: 1.15rem;
+  .food{
+    flex-wrap: nowrap;
+    flex-direction: column;
   }
-} */
+  .juice{
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+/* @media screen and (max-width: 1024px) {} */
 
 @media screen and (max-width: 800px) {
   .Nav-bar a:not(:first-child) {display: none;}
@@ -511,7 +514,6 @@ body{
   .Nav-bar.responsive a {
     float:none;
     display:flex;
-    /* flex-wrap: wrap; */
     text-align: left;
     padding: 10px 13px;
     font-size: 1.1rem;
