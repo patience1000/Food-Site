@@ -239,9 +239,6 @@ body{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.switch-btn{
-  /* margin: 2%;   */
-}
 .juice-btn{ 
   padding: 6px 40px;
   margin-left: 10px;
@@ -287,6 +284,7 @@ body{
   box-shadow: 2px 2px 2px 2px rgba(90, 78, 78, 0.4);
   text-align: center;   
 }
+
 .food-section h3{
   padding: 15px;
   font-weight:500;
@@ -301,6 +299,13 @@ body{
   border-radius: 15px;
   background-color:rgb(175, 17, 109);
 }
+
+.food-section button a{
+  text-decoration: none;
+  color: #fff;
+  
+}
+
 .food-section button:hover{
   background-color:rgb(116, 17, 74);
 }
