@@ -444,6 +444,10 @@ body{
     background-color:rgb(175, 17, 109);
     border-radius: 6px;
   }
+  .note button:hover{
+    background-color: rgb(155, 11, 83);
+  }
+
   .contact-photo img{
     max-width: 70%;
     margin: 10px;
@@ -454,12 +458,16 @@ body{
     font-weight: 500;
     padding: 18px 0;
   }
+  .content{
+    line-height: 2;
+  }
+/*   
   .description{
-    padding: 4px 0;
+    font-size: 1.5rem;
   }
   .contact-title h3{
-    padding: 14px 0;
-  }
+    font-size: 1.2rem;
+  }  */
   .rule{
     border-bottom: 1px solid white;
   }
