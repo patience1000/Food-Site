@@ -415,6 +415,7 @@ body{
   .contact-title{
     display: flex;
     justify-content:space-between;
+    padding-left: 20px;
   }
   .delivery{
     position: relative;
@@ -428,7 +429,7 @@ body{
   .contact-photo img{
     max-width: 70%;
     margin: 10px;
-    border-radius: 10%;
+    border-radius: 6%;
   }
 
   .note{
@@ -554,9 +555,11 @@ body{
 
 @media screen and (max-width: 800px) {
   .Nav-bar.responsive {
-    position: relative;
+    position: fixed;
     flex-direction: column;
     align-items:flex-start;
+  
+    
     }
 
   .Nav-bar.responsive .icon {
@@ -573,6 +576,10 @@ body{
     text-align: left;
     padding: 10px 13px;
     font-size: 1.1rem;
+  }
+
+  #blg{
+    padding-left: 13px;
   }
 }
 
@@ -595,6 +602,30 @@ body{
     flex: 50%;
     max-width: 50%;
   }
+
+  .contact-title{
+    flex-direction: column;
+  }
+
+  .contact-photo img{
+    min-width: 80%;
+    margin: 10px;
+    border-radius: 6%;
+  }
+
+  .note{
+    font-weight: 200;
+    font-size: 2.3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .note p{
+    font-size: 1.1rem;
+  }
+  .note button{
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -603,5 +634,33 @@ body{
     flex: 100%;
     max-width: 100%;
   }
+
+  .contact-title{
+    flex-direction: column;
+  }
+
+  .contact-photo img{
+    min-width: 80%;
+    margin: 10px;
+    border-radius: 6%;
+  }
+
+  .note{
+    font-weight: 200;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .note p{
+    font-size: 1rem;
+  }
+  .note button{
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  #blg{
+    padding-left: 13px;
+  }
+
 }
  
