@@ -424,6 +424,13 @@ body{
     position: relative;
     z-index: 1;
   }
+
+  .contact-photo img{
+    max-width: 70%;
+    margin: 10px;
+    border-radius: 10%;
+  }
+
   .note{
     position:absolute;
     bottom: 150px;
@@ -448,11 +455,6 @@ body{
     background-color: rgb(155, 11, 83);
   }
 
-  .contact-photo img{
-    max-width: 70%;
-    margin: 10px;
-    border-radius: 10%;
-  }
   .head{
     font-size: 2rem;
     font-weight: 500;
@@ -529,6 +531,10 @@ body{
   .juice{
     flex-wrap: nowrap;
     flex-direction: column;
+  }
+  .contact-title{
+    /* flex-direction: column; */
+  
   }
 }
 /* @media screen and (max-width: 1024px) {} */
