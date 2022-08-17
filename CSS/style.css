@@ -461,15 +461,16 @@ body{
     padding: 18px 0;
   }
   .content{
-    line-height: 2;
+    line-height: 1.8;
   }
-/*   
+  
   .description{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .contact-title h3{
-    font-size: 1.2rem;
-  }  */
+    padding-top: 15px;
+    font-size: 1.3rem;
+  } 
   .rule{
     border-bottom: 1px solid white;
   }
@@ -532,10 +533,13 @@ body{
     flex-wrap: nowrap;
     flex-direction: column;
   }
-  .contact-title{
-    /* flex-direction: column; */
-  
+  .description{
+    font-size: 1rem;
   }
+  .contact-title h3{
+    padding-top: 0;
+    font-size: 1rem;
+  } 
 }
 /* @media screen and (max-width: 1024px) {} */
 
