@@ -380,6 +380,12 @@ body{
   height: 50%;
   border-radius:5px 5px 0 0 ;
 }
+
+.juice-section button a{
+  text-decoration: none;
+  color: #fff;
+  
+}
    /*Reviews */
    .Review-section{
     background-color: rgb(17, 17, 17);
