@@ -333,8 +333,7 @@ body{
 
 .food-section button a{
   text-decoration: none;
-  color: #fff;
-  
+  color: #fff; 
 }
 
 .food-section button:hover{
@@ -619,17 +618,32 @@ body{
   }
 }
 
-@media screen and (max-width: 800px) {
-  .about-us{
-    font-size: 1rem;
+@media screen and (min-width: 1024px) {
+  .Nav-bar.responsive {
+    position: fixed;
     flex-direction: column;
-}
-}
+    align-items:flex-start;
+    }
 
-@media screen and (max-width: 800px) {
-  .about-us div{
-    width: 100%;
-}
+  .Nav-bar.responsive .icon {
+  /* position:relative; */
+  right: 0;
+  top: 0;
+  }
+
+  .Nav-bar.responsive #hd1 {display: none;}
+
+  .Nav-bar.responsive a {
+    float:none;
+    display:flex;
+    text-align: left;
+    padding: 10px 13px;
+    font-size: 1.1rem;
+  }
+
+  #blg{
+    padding-left: 13px;
+  }
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -661,7 +675,6 @@ body{
     padding: 10px;
     font-size: 1.1rem;
   }
-
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -697,6 +710,5 @@ body{
   #blg{
     padding-left: 13px;
   }
-
 }
  
