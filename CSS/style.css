@@ -24,11 +24,7 @@ body{
  }
 
 .topnav{
-  /* display: flex; */
   background-color: rgb(12, 11, 11);
-  /* align-items: center;  */
-  /* z-index: 100;   */
-  /* position:fixed; */
   overflow: hidden;
 }
 
@@ -163,6 +159,7 @@ body{
   .column:hover .overlay {
     opacity: 1;
   }
+ 
 
   .fa-user:hover {
     color: #eee;
@@ -509,21 +506,20 @@ body{
   }
 
 /* Media screen */
-
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child){
     display: none;
   }
   .topnav a.icon {
-    float:inline-end ;
     display: block;
+    float: right;
   }
 }
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
-    /* position: absolute; */
+    position: absolute;
     right: 0;
     top: 0;
   }
@@ -532,16 +528,8 @@ body{
     display: block;
     text-align: left;
   }
-
+}
 @media screen and (max-width: 1024px) {
- .Nav-bar{
-    width: 970px;
-    overflow-y: hidden;
- } 
-  .Nav-bar a{
-    padding: 2.9% 2.5%;
-    font-size: 1.1rem;
-  }
    #book{
     padding-right: 135px;
   }
@@ -594,14 +582,6 @@ body{
 }
 /* @media screen and (max-width: 1024px) {} */
 
-@media screen and (max-width: 800px) {
-  .Nav-bar a:not(:first-child) {display: none;}
-  .Nav-bar a.icon { 
-  float: right;
-  display: block;
-  align-items: center;
-  }
-}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
@@ -667,5 +647,4 @@ body{
   #blg{
     padding-left: 13px;
   }
-}
 }
