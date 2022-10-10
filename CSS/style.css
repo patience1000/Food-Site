@@ -529,6 +529,7 @@ body{
     text-align: left;
   }
 }
+
 @media screen and (max-width: 1024px) {
    #book{
     padding-right: 135px;
