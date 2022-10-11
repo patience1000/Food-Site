@@ -537,12 +537,23 @@ body{
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
+  .topnav a {
+    float: left;
+    display: block;
+    padding: 30px 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff; 
+    text-align: center;
+  }
+
    #book{
-    padding-right: 135px;
+    padding-right: 100px;
   }
   #blg{
-    padding-left: 135px;
+    padding-left: 100px;
   }
   #hd1{
     display: none;
@@ -588,7 +599,68 @@ body{
     font-size: 1rem;
   } 
 }
-/* @media screen and (max-width: 1024px) {} */
+@media screen and (max-width: 1024px) {
+  .topnav a {
+    float: left;
+    display: block;
+    padding: 25px 26px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff; 
+    text-align: center;
+  }
+
+   #book{
+    padding-right: 70px;
+  }
+  #blg{
+    padding-left: 60px;
+  }
+  #hd1{
+    display: none;
+  }
+  .about-us{
+    flex-direction: column;
+  }
+  .about-img{
+    display: none;
+  }
+  .about-us div{
+    width: 100%;
+  }
+  .about-us-text h1{
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  .Bookings{
+    width: 60%;
+  }
+  
+  .Review{
+    flex-direction: column;
+    width: 100%;
+   }
+  .Box{
+    height: 275px;
+    width: 60%;
+  }
+  .food{
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .juice{
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .description{
+    font-size: 1rem;
+  }
+  .contact-title h3{
+    padding-top: 0;
+    font-size: 1rem;
+  } 
+}
 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
