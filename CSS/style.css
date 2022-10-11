@@ -514,6 +514,9 @@ body{
     display: block;
     float: right;
   }
+  .topnav.responsive #blg{
+    padding-left: 30px;
+  }
 }
 
 @media screen and (max-width: 820px) {
@@ -534,6 +537,9 @@ body{
     float: none;
     display: block;
     text-align: left;
+  }
+  .topnav.responsive #blg{
+    padding-left: 30px;
   }
 }
 
