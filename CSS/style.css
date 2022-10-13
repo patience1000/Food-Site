@@ -720,12 +720,12 @@ body{
   } 
 }
 
-/* @media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1214px) { */
   .topnav a {
     float: left;
     display: block;
-    padding: 20px 30px;
-    font-size: 1.6rem;
+    padding: 20px 20px;
+    font-size: 1.22rem;
     cursor: pointer;
     text-decoration: none;
     color: #ffffff; 
@@ -739,7 +739,7 @@ body{
     padding-left: 100px;
   }
   #hd1{
-    display: block;
+    display: none;
   }
   .about-us{
     flex-direction: column;
@@ -844,7 +844,7 @@ body{
     padding-top: 0;
     font-size: 1rem;
   } 
-} */
+}
 @media screen and (max-width: 1024px) {
   .topnav a {
     float: left;
