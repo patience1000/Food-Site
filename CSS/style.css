@@ -647,8 +647,7 @@ body{
   } 
 }
 
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1300px) {
   .topnav a {
     float: left;
     display: block;
@@ -659,7 +658,6 @@ body{
     color: #ffffff; 
     text-align: center;
   }
-
   #book{
     padding-right: 100px;
   }
