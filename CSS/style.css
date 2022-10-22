@@ -667,7 +667,7 @@ body{
     padding-left: 100px;
   }
   #hd1{
-    display: block;
+    display: none;
   }
   .about-us{
     /* flex-direction: column; */
