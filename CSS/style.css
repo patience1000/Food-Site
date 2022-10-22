@@ -525,13 +525,7 @@ body{
     display: inline-block;
     margin: 5% 0;
     height: 55%;
-    width: 80%;
-    padding: 50px 35px;
-    background: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.3);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgb(0,0,0,0.1);
-    backdrop-filter: blur(5px);
+    width: 90%;
   }
   .form-control{
     height: 1cm;
@@ -539,8 +533,6 @@ body{
     outline: none;
     padding: 2px 15px;
     margin: 5% 12%;
-    border-radius: 15px;
-    border: 0;
  }
 }
 
@@ -655,68 +647,6 @@ body{
   } 
 }
 
-/* @media screen and (min-width: 1214px) { */
-  .topnav a {
-    float: left;
-    display: block;
-    padding: 20px 20px;
-    font-size: 1.22rem;
-    cursor: pointer;
-    text-decoration: none;
-    color: #ffffff; 
-    text-align: center;
-  }
-
-  #book{
-    padding-right: 100px;
-  }
-  #blg{
-    padding-left: 100px;
-  }
-  #hd1{
-    display: none;
-  }
-  .about-us{
-    flex-direction: column;
-  }
-  .about-img{
-    display: none;
-  }
-  .about-us div{
-    width: 100%;
-  }
-  .about-us-text h1{
-    padding-bottom: 20px;
-    font-size: 2.5rem;
-  }
-  .Bookings{
-    width: 60%;
-  }
-  
-  .Review{
-    flex-direction: column;
-    width: 100%;
-   }
-  .Box{
-    height: 275px;
-    width: 60%;
-  }
-  .food{
-    flex-wrap: nowrap;
-    flex-direction: column;
-  }
-  .juice{
-    flex-wrap: nowrap;
-    flex-direction: column;
-  }
-  .description{
-    font-size: 1rem;
-  }
-  .contact-title h3{
-    padding-top: 0;
-    font-size: 1rem;
-  } 
-}
 
 @media screen and (max-width: 1280px) {
   .topnav a {
@@ -740,10 +670,10 @@ body{
     display: block;
   }
   .about-us{
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   .about-img{
-    display: none;
+    /* display: none; */
   }
   .about-us div{
     width: 100%;
@@ -913,4 +843,4 @@ body{
   #blg{
     padding-left: 13px;
   }
-}
+}}
