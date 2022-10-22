@@ -40,7 +40,7 @@ body{
 .topnav a {
   float: left;
   display: block;
-  padding: 22px 34.7px;
+  padding: 22px 2.5%;
   font-size: 1.2rem;
   cursor: pointer;
   text-decoration: none;
@@ -561,7 +561,7 @@ body{
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1210px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -647,7 +647,7 @@ body{
   } 
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
   .topnav a {
     float: left;
     display: block;
@@ -667,12 +667,7 @@ body{
   #hd1{
     display: none;
   }
-  .about-us{
-    /* flex-direction: column; */
-  }
-  .about-img{
-    /* display: none; */
-  }
+  
   .about-us div{
     width: 100%;
   }
