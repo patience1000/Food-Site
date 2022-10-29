@@ -159,7 +159,7 @@ body{
   .column:hover .overlay {
     opacity: 1;
   }
-  .icon {
+  .plus {
     color: white;
     font-size: 100px;
     position: absolute;
