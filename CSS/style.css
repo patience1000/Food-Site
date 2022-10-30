@@ -53,6 +53,11 @@ body{
   color: #ffffff;
 }
 
+.topnav a.active {
+  background-color: rgb(255, 7, 152);
+  color: white;
+}
+
 .topnav .icon {
   display: none;
 }
