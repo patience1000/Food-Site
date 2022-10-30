@@ -484,6 +484,12 @@ body{
     background-color:rgb(175, 17, 109);
     border-radius: 6px;
   }
+
+  .note button a{
+    text-decoration: none;
+    color: #fff;
+  }
+
   .note button:hover{
     background-color: rgb(155, 11, 83);
   }
