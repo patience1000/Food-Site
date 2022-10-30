@@ -24,8 +24,11 @@ body{
  }
 
 .topnav{
+  position: fixed;
   background-color: rgb(12, 11, 11);
   overflow: hidden;
+  top: 0;
+  width: 98.7%;
 }
 
 #hd1{
@@ -40,7 +43,7 @@ body{
 .topnav a {
   float: left;
   display: block;
-  padding: 2.4% 2.4%;
+  padding: 2.3% 2.5%;
   font-size: 1.2rem;
   cursor: pointer;
   text-decoration: none;
@@ -54,7 +57,7 @@ body{
 }
 
 .topnav a.active {
-  background-color: rgb(255, 7, 152);
+  background-color: rgb(201, 18, 125);
   color: white;
 }
 
@@ -611,7 +614,7 @@ body{
     text-align: center;
   }
 
-   #book{
+  #book{
     padding-right: 100px;
   }
   #blg{
