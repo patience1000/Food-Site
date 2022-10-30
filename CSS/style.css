@@ -28,13 +28,13 @@ body{
   background-color: rgb(12, 11, 11);
   overflow: hidden;
   top: 0;
-  width: 98.7%;
+  width: 98.6%;
 }
 
 #hd1{
   color: rgb(238, 57, 163);
   font-size:2rem; 
-  padding: 2% 2%;
+  padding: 1.5% 2%;
 }
 #hd1:hover{
   background-color:rgb(12, 11, 11);
@@ -43,7 +43,7 @@ body{
 .topnav a {
   float: left;
   display: block;
-  padding: 2.3% 2.5%;
+  padding: 2% 2.5%;
   font-size: 1.2rem;
   cursor: pointer;
   text-decoration: none;
@@ -603,6 +603,9 @@ body{
     padding-left: 30px;
   }
 
+  .topnav{
+    width: 100%;
+  }
   .topnav a {
     float: left;
     display: block;
@@ -666,6 +669,9 @@ body{
 }
 
 @media screen and (max-width: 1350px) {
+  .topnav{
+    width: 100%;
+  }
   .topnav a {
     float: left;
     display: block;
