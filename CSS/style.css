@@ -63,6 +63,7 @@ body{
 }
 .topnav a.active:hover {
   background-color: rgb(48, 44, 44);
+  color: rgb(236, 41, 155);
 }
 .topnav .icon {
   display: none;
