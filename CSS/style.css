@@ -28,7 +28,7 @@ body{
   background-color: rgb(12, 11, 11);
   overflow: hidden;
   top: 0;
-  /* z-index: 100; */
+  z-index: 100;
   width: 98.6%;
 }
 
@@ -674,7 +674,7 @@ body{
 
 @media screen and (max-width: 1350px) {
   .topnav{
-    width: 100%;
+    width: 98.2%;
   }
   .topnav a {
     float: left;
