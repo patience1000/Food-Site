@@ -439,6 +439,7 @@ body{
    }
    .Box p{
     padding: 15px 30px;
+    line-height: 25px;
     font-weight: 540;
    }
 
@@ -477,7 +478,7 @@ body{
     left: 50px;
     z-index: 2;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .note p{
@@ -674,7 +675,7 @@ body{
 
 @media screen and (max-width: 1350px) {
   .topnav{
-    width: 98.2%;
+    width: 98.9%;
   }
   .topnav a {
     float: left;
@@ -838,7 +839,11 @@ body{
     flex: 100%;
     max-width: 100%;
   }
-
+  .Box p{
+    padding: 15px 30px;
+    line-height: 20px;
+    font-weight: 540;
+   }
   .contact-title{
     flex-direction: column;
   }
@@ -851,7 +856,7 @@ body{
 
   .note{
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .note p{
